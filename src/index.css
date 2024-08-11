@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  margin: 0 auto;
+  width: 90%;
+}
+a {
+  text-decoration: none;
+}
+.bg {
+  background: rgba(173, 181, 189, 1);
+}
+.active {
+  color: blue;
+  font-style: italic;
+}
+body {
+  background: rgba(33, 37, 41, 1);
+  margin-top: 20px;
+}
+.gb1 {
+  background: rgba(173, 181, 189, 1);
+  width: 100%;
+  height: 480px;
+}
+.ab {
+  background: rgba(108, 117, 125, 1);
+}
+.bg2 {
+  background: rgba(217, 217, 217, 1);
+}
+.pro {
+  background: rgba(108, 117, 125, 1);
+}
+.pro2 {
+  background: rgba(217, 217, 217, 1);
+}
